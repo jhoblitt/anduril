@@ -1,3 +1,12 @@
+# Dark Mode Special Edition
+
+This version of Anduril includes an exciting new feature called Dark
+Mode!  It reduces eye strain with a dim, low-contrast interface.  All
+output levels are reduced to just the lowest 3 levels, plus a special
+mode for Stealth Turbo... which goes completely dark to help unleash
+your inner ninja and make sure no one will see you coming.
+
+
 # Anduril Flashlight Firmware + FSM Flashlight UI Toolkit
 
 Anduril is a user interface for flashlights.  It is written with FSM, a UI

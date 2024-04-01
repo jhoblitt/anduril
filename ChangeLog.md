@@ -14,6 +14,111 @@ formats:
 
 # Next
 
+# 2024-04-01
+
+It has been a long time coming, but today marks a monumental leap forward in
+the world of illumination, and I'm proud to announce an upgrade which will
+usher in a new era of lighting technology. You spoke, we listened, and now
+after a long and grueling development process, it's here!
+
+## 🌟 A Heartfelt Thank You!
+
+Before we dive into the details, I must extend my deepest appreciation to each
+and every contributor who poured their passion, creativity, and expertise into
+this project. We wouldn't be here today without your unwavering dedication,
+and for that, I am eternally grateful.
+
+## 🔦 What is it?
+
+I don't want to over-hype anything, but this may perhaps be the single most
+popular feature ever. According to extensive market research and numerous
+studies, it is preferred by anywhere from 80% to 95% of all users globally,
+and has become an industry standard on nearly all platforms. Again and again,
+one feature shines above all others as the most highly requested:
+
+Say hello to Dark Mode, the sleek and sophisticated new Anduril interface that
+transforms your flashlight experience into an immersive journey through the
+shadows.
+
+## 🌙 Why Dark Mode?
+
+Imagine navigating through the night with the elegance and ease of darkness at
+your fingertips. Dark Mode isn't just a trend; it's a lifestyle. Here's why
+you'll love it:
+
+  - **Enhanced Comfort**: Say goodbye to harsh glare! Dark Mode offers a
+    softer, more comfortable lighting experience, perfect for late-night
+    walks, camping trips, or simply getting to the bathroom in the middle of
+    the night.
+
+  - **Modern Aesthetics**: Embrace a fresh, modern look that's easy on the
+    eyes and effortlessly stylish. Black is the new black, because it never
+    goes out of style.
+
+  - **No More Blue Light Interference**: The modern world is full of light
+    pollution and other ocular hazards which disrupt the circadian rhythm and
+    can even cause severe health problems like chronic fatigue and macular
+    degeneration. LEDs are particularly egregious thanks to their high
+    intensity blue wavelengths. But with Dark Mode, you can leave all those
+    troubles in the past and get a good night's sleep, every night.
+
+  - **Environmental Consciousness**: Embrace sustainability with Dark Mode's
+    energy-efficient design. By conserving power, you contribute to a
+    brighter, greener future for generations to come.
+
+  - **Unprecedented Lighting Quality**: With a simple firmware update, you can
+    turn your ugly old torch beam into an ideal blackbody radiator with
+    industry-leading 100 CRI, zero duv for a neutral tint, and a perfectly
+    smooth beam with no artifacts. It emits a truly radiant, ultra-warm,
+    never-seen-before color temperature of 300 Kelvin, which imbues colors
+    with such authentic warmth and richness, it's positively incandescent.
+
+  - **Extended Battery Life**: This innovative feature provides nearly
+    unlimited runtime, so never again will you have to fumble around trying to
+    change a battery in the dark.
+
+  - **Industry Compatibility**: Seamlessly integrate with the latest industry
+    standards, ensuring optimal performance across all devices.  Inspired by
+    Android's Material You engine, it uses an intuitive touch interface based
+    on advanced thermodynamic transfer technology, to continuously adjust its
+    beam and perfectly match each user and each situation. The best part is,
+    it's automatic so you don't even have to change any system preferences.
+
+  - **Stealth and Night Vision**: For truly distinguished soldiers of fortune,
+    this release comes with a special new feature just for you: Turbo Stealth!
+    You thought turbo mode and stealth were mutually incompatible... but you
+    were wrong. So wrong. When you point this baby at an attacker and unleash
+    a blinding burst of darkness, your target will be so confused and
+    disoriented that they won't know what hit them! Freelance mall security
+    has never looked so good.
+
+  - **Cutting-Edge AI and LLM Technology**: You've heard the buzzwords, you've
+    seen the news that AI is going to change the world, you've tried the
+    latest LLMs from OpenAI, Microsoft, and other tech giants. Now you can
+    have your own Artificial Illumination solution right there in your pocket
+    at all times, with the latest in Low Light Modeling technology. No cloud
+    account required!
+
+But wait, there's more! Included is a bonus feature called **Moonlighting
+Mode**: When you're not busy pretending to illuminate things, your Anduril
+flashlight can now generate passive income with a part-time job as a stylish
+doorstop or paperweight, adding a touch of whimsy to any room.
+
+So don't wait one more minute. Dive into an immersive realm where darkness
+takes center stage, offering a sense of depth and wonder unlike anything
+you've seen before.
+
+To experience Dark Mode for yourself, simply update your firmware to the
+latest version. This feature is available today across all platforms, ensuring
+a consistent experience for all users, regardless of brand, make, or model. We
+encourage you to explore this exciting new feature and share your feedback
+with us.
+
+Experience the magic of Dark Mode with Anduril flashlight firmware version
+r2024-04-01. Upgrade now and step into a world where darkness becomes your
+greatest ally!
+
+
 # 2023-12-03
 
 This release is somewhat higher risk than usual, because so many large things

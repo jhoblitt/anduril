@@ -6,9 +6,9 @@
 #include "lumintop/blf-gt/hwdef.h"
 
 // the button lights up
-#define USE_INDICATOR_LED
+//#define USE_INDICATOR_LED
 // the button is visible while main LEDs are on
-#define USE_INDICATOR_LED_WHILE_RAMPING
+//#define USE_INDICATOR_LED_WHILE_RAMPING
 
 #define RAMP_SIZE 150
 
