@@ -62,14 +62,6 @@ void set_level(uint8_t level) {
         level = ramp_level_hard_limit;
     #endif
 
-    #ifdef USE_DARK_MODE
-    // reduce eye strain caused by blinding white color schemes
-    uint8_t orig_level = level;
-    if (! level) {}  // Off
-    else if (level >= RAMP_SIZE) level = 0;  // Turbo Stealth
-    else level = 1 + (level / (RAMP_SIZE/3));  // Low Contrast Dark Mode
-    #endif
-
     #ifdef USE_JUMP_START
     // maybe "jump start" the engine, if it's prone to slow starts
     // (pulse the output high for a moment to wake up the power regulator)
@@ -84,6 +76,14 @@ void set_level(uint8_t level) {
         set_level(JUMP_START_LEVEL);
         delay_4ms(JUMP_START_TIME/4);
     }
+    #endif
+
+    #ifdef USE_DARK_MODE
+    // reduce eye strain caused by blinding white color schemes
+    uint8_t orig_level = level;
+    if (! level) {}  // Off
+    else if (level >= RAMP_SIZE) level = 0;  // Turbo Stealth
+    else level = 1 + (level / (RAMP_SIZE/3));  // Low Contrast Dark Mode
     #endif
 
     #ifdef HAS_AUX_LEDS
