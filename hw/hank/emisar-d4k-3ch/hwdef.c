@@ -28,14 +28,9 @@ bool gradual_tick_auto3(uint8_t gt);
 
 
 Channel channels[] = {
-    { // main 2 LEDs only
+    { // main 2 LEDs + 3rd LED
         .set_level    = set_level_main2,
         .gradual_tick = gradual_tick_main2,
-        .has_args     = 0
-    },
-    { // 3rd LED only
-        .set_level    = set_level_led3,
-        .gradual_tick = gradual_tick_led3,
         .has_args     = 0
     },
     { // 4th LED only
@@ -46,26 +41,6 @@ Channel channels[] = {
     { // all channels, tied together (equal amounts, max power)
         .set_level    = set_level_all,
         .gradual_tick = gradual_tick_all,
-        .has_args     = 0
-    },
-    { // 3rd + 4th LEDs, manual blend (max "100%" power) (8/16/16)
-        .set_level    = set_level_led34a_blend,
-        .gradual_tick = gradual_tick_led34a_blend,
-        .has_args     = 1
-    },
-    { // 3rd + 4th LEDs, manual blend (max "100%" power) (16/16/8)
-        .set_level    = set_level_led34b_blend,
-        .gradual_tick = gradual_tick_led34b_blend,
-        .has_args     = 1
-    },
-    { // 3ch blend (HSV style)
-        .set_level    = set_level_hsv,
-        .gradual_tick = gradual_tick_hsv,
-        .has_args     = 1
-    },
-    { // 3ch auto blend (red-warm-cool style, led4-led3-main2)
-        .set_level    = set_level_auto3,
-        .gradual_tick = gradual_tick_auto3,
         .has_args     = 0
     },
     RGB_AUX_CHANNELS
@@ -168,8 +143,9 @@ ISR(DSM_vect) {
 // LEDs 1+2 are 8-bit
 // this 8-bit channel may be LEDs 1+2 or LED 4, depending on wiring
 void set_level_main2(uint8_t level) {
-    set_hw_levels(PWM_GET(pwm1_levels, level), 0, 0,
-                  1,                           0, 0);
+    PWM_DATATYPE pwm = PWM_GET(pwm1_levels, level);
+    set_hw_levels(pwm, pwm, 0,
+                  1,   1,   0);
 }
 
 // LED 3 is 16-bit
@@ -301,8 +277,8 @@ bool gradual_adjust(PWM_DATATYPE main2, PWM_DATATYPE led3, PWM_DATATYPE led4) {
 }
 
 bool gradual_tick_main2(uint8_t gt) {
-    PWM_DATATYPE main2 = PWM_GET(pwm1_levels, gt);
-    return gradual_adjust(main2, 0, 0);
+    PWM_DATATYPE pwm = PWM_GET(pwm1_levels, gt);
+    return gradual_adjust(pwm, pwm, 0);
 }
 
 bool gradual_tick_led3(uint8_t gt) {
